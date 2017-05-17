@@ -1,6 +1,6 @@
 # river1
 
-> vue+purecss
+> vue-cli+purecss
 
 ## Build Setup
 
