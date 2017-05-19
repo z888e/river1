@@ -1,6 +1,6 @@
 # river1
 
-> vue-cli+purecss
+> vue-cli+pure.css
 
 ## Build Setup
 

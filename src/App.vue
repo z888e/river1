@@ -13,14 +13,10 @@ export default {
 <style>
 #app {
   font-family: 'Iosevka', Helvetica, sans-serif;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-a {
-  color: #6190A6 !important;
+  margin-top: 1.5rem;
 }
 </style>
