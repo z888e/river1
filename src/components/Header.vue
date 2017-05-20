@@ -18,6 +18,5 @@ export default {
 <style scoped>
 .header{
   border: 1px solid black;
-  margin: 1rem;
 }
 </style>
