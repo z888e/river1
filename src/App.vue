@@ -3,9 +3,16 @@
     <div id="banner">
       <h1>{{ msg }}</h1>
       <ul>
-      <router-link v-for="route in this.$router.options.routes" tag="li" :to="route.path">
-        <a>{{ route.name }}</a>
-      </router-link>
+        <router-link tag="li" to="/One"><a>One</a></router-link>
+        <router-link tag="li" to="/Two"><a>Two</a></router-link>
+        <router-link tag="li" to="/Three"><a>Three</a></router-link>
+        <router-link tag="li" to="/Four"><a>Four</a></router-link>
+        <router-link tag="li" to="/Five"><a>Five</a></router-link>
+        <router-link tag="li" to="/Six"><a>Six</a></router-link>
+        <router-link tag="li" to="/Seven"><a>Seven</a></router-link>
+        <router-link tag="li" to="/Eight"><a>Eight</a></router-link>
+        <router-link tag="li" to="/Nine"><a>Nine</a></router-link>
+
     </ul>
     </div>
 
@@ -48,8 +55,7 @@ ul {
   display: flex;
   padding: 0;
   margin: 0;
-/*  border: 1px solid green;
-*/}
+}
 
 ul li {
   padding: 0.2rem 3rem;
@@ -59,12 +65,19 @@ ul li {
 }
 
 li:hover {
-  background-color: #77B07F;
+  background-color: #71A57D;
 }
 
 a {
   color: black;
   text-decoration: none;
+  margin: -0.2rem -3rem;
+  padding: 0.2rem 3rem;
+}
+
+li.router-link-active {
+  background-color: #77B07F;
+  border-top: 0;
 }
 
 
