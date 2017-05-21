@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="banner">
+    <div id="banner">
       <h1>{{ msg }}</h1>
       <ul>
       <router-link v-for="route in this.$router.options.routes" tag="li" :to="route.path">
@@ -31,23 +31,40 @@ export default {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   margin: -0.5rem;
-}
+/*  border: 1px solid red;
+*/}
 
-.banner{
-background-color: #828AA6;
-padding: 0.1rem;
-}
+#banner {
+  background-color: #77B07F;
+  color: black;
+  padding: 0.1rem;
+  text-align: center;
+/*  border: 1px solid blue;
+*/}
 
-ul{
+ul {
   list-style-type: none;
-  display: inline-flex;
-  padding-left: 0;
+  display: flex;
+  padding: 0;
+  margin: 0;
+/*  border: 1px solid green;
+*/}
+
+ul li {
+  padding: 0.2rem 3rem;
+  margin: -0.1rem;
+  border: 1px solid black;
+  background-color: #65976D;
 }
 
-ul li{
-  padding: 0 3rem;
+li:hover {
+  background-color: #77B07F;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 

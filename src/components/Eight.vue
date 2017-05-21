@@ -1,13 +1,13 @@
 <template>
   <div class="top">
-    <h1>Two</h1>
-    <p>22222</p>
+    <h1>Eight</h1>
+    <p>8</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'two',
+  name: 'eight',
   data() {
     return {
       msg: '',
