@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Header from '@/components/Header';
-import Top from '@/components/Top';
+import One from '@/components/One';
+import Two from '@/components/Two';
 
 Vue.use(Router);
 
@@ -9,13 +9,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Header',
-      component: Header,
+      name: 'One',
+      component: One,
     },
     {
-      path: '/',
-      name: 'Top',
-      component: Top,
+      path: '/two',
+      name: 'Two',
+      component: Two,
     },
   ],
 });
