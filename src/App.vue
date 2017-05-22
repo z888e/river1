@@ -3,7 +3,7 @@
     <div id="banner">
       <h1>{{ msg }}</h1>
       <ul>
-        <router-link tag="li" to="/"><a>News</a></router-link>
+        <router-link tag="li" to="/One"><a>News</a></router-link>
         <router-link tag="li" to="/Two"><a>Tech</a></router-link>
         <router-link tag="li" to="/Three"><a>Design</a></router-link>
         <router-link tag="li" to="/Four"><a>Art</a></router-link>
