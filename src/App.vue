@@ -3,22 +3,20 @@
     <div id="banner">
       <h1>{{ msg }}</h1>
       <ul>
-        <router-link tag="li" to="/One"><a>One</a></router-link>
-        <router-link tag="li" to="/Two"><a>Two</a></router-link>
-        <router-link tag="li" to="/Three"><a>Three</a></router-link>
-        <router-link tag="li" to="/Four"><a>Four</a></router-link>
-        <router-link tag="li" to="/Five"><a>Five</a></router-link>
-        <router-link tag="li" to="/Six"><a>Six</a></router-link>
-        <router-link tag="li" to="/Seven"><a>Seven</a></router-link>
-        <router-link tag="li" to="/Eight"><a>Eight</a></router-link>
-        <router-link tag="li" to="/Nine"><a>Nine</a></router-link>
-
-    </ul>
-    </div>
-
-    
+        <router-link tag="li" to="/One"><a>News</a></router-link>
+        <router-link tag="li" to="/Two"><a>Tech</a></router-link>
+        <router-link tag="li" to="/Three"><a>Design</a></router-link>
+        <router-link tag="li" to="/Four"><a>Art</a></router-link>
+        <router-link tag="li" to="/Five"><a>Cats</a></router-link>
+        <router-link tag="li" to="/Six"><a>Food</a></router-link>
+        <router-link tag="li" to="/Seven"><a>Linux</a></router-link>
+        <router-link tag="li" to="/Eight"><a>UI</a></router-link>
+        <router-link tag="li" to="/Nine" id="lastTag"><a>UX</a></router-link>
+      </ul>
+    </div> <!-- end banner -->
+    <div id="newsletter">Get our newsletter <input type="email" name="email" class="newletterInput" placeholder="your email"><button type="button" id="sendEmail">OK</button><button id="close" onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'> X</button></div>
     <router-view></router-view>
-  </div>
+  </div> <!-- end app -->
 </template>
 
 <script>
@@ -26,7 +24,7 @@ export default {
   name: 'app',
   data() {
     return {
-      msg: 'Welcome to River1',
+      msg: 'river1',
     };
   },
 };
@@ -47,13 +45,13 @@ export default {
   color: black;
   padding: 0.1rem;
   text-align: center;
-/*  border: 1px solid blue;
-*/}
+  border-bottom: 1px solid black;
+}
 
 ul {
   list-style-type: none;
-  display: flex;
-  padding: 0;
+  display: inline-flex;
+  padding: 0 ;
   margin: 0;
 }
 
@@ -61,6 +59,7 @@ ul li {
   padding: 0.2rem 3rem;
   margin: -0.1rem;
   border: 1px solid black;
+  border-bottom: 0;
   background-color: #65976D;
 }
 
@@ -80,5 +79,34 @@ li.router-link-active {
   border-top: 0;
 }
 
+#newsletter{
+  text-align: right;
+  border: 1px solid black;
+  padding: 0.4rem 0.69rem;
+  float: right;
+  margin: 0.5rem;
+}
+
+button {
+  font-family: 'Iosevka', Helvetica, sans-serif;
+  padding: 0.3rem;
+  margin: -0.15rem 0 -0.15rem  0.3rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus, input:focus {outline:0;}
+
+
+.newletterInput::-webkit-input-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
+ }
+.newletterInput:-moz-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
+ }
+.newletterInput::-moz-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
+ }
+.newletterInput:-ms-input-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
+}
 
 </style>
+

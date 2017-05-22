@@ -1,7 +1,7 @@
 <template>
   <div class="top">
-    <h1>Nine</h1>
-    <p>.</p>
+    <h1>youpla</h1>
+    <p>bim</p>
   </div>
 </template>
 
