@@ -2,8 +2,9 @@
   <div id="app">
     <div id="banner">
       <h1>{{ msg }}</h1>
-      <ul>
-        <router-link tag="li" to="/One"><a>News</a></router-link>
+<!--       <div id="tabsBg"></div>
+ -->      <ul>
+        <router-link tag="li" to="/One"><a>All</a></router-link>
         <router-link tag="li" to="/Two"><a>Tech</a></router-link>
         <router-link tag="li" to="/Three"><a>Design</a></router-link>
         <router-link tag="li" to="/Four"><a>Art</a></router-link>
@@ -46,6 +47,13 @@ export default {
   padding: 0.1rem;
   text-align: center;
   border-bottom: 1px solid black;
+}
+
+#tabsBg{
+  position: relative;  
+  background-color: black;
+  opacity: 0.4;
+  height: 25px;
 }
 
 ul {
