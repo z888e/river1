@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="banner">
+    <header id="banner">
       <h1>river1</h1>
 <!--       <div id="tabsBg"></div>
  -->      <ul>
@@ -14,13 +14,16 @@
         <router-link tag="li" to="/Eight"><a>UI</a></router-link>
         <router-link tag="li" to="/Nine" id="lastTag"><a>UX</a></router-link>
       </ul>
-    </div> <!-- end banner -->
+    </header> <!-- end banner -->
     <div id="newsletter">Get our newsletter 
       <input type="email" name="email" class="newletterInput" placeholder="your email">
       <button type="button" id="sendEmail">OK</button>
       <button id="close" onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'> X</button>
     </div>
     <router-view></router-view>
+    <footer>
+      <p>personal project - zoemhart</p>
+    </footer>
   </div> <!-- end app -->
 </template>
 
@@ -82,6 +85,7 @@ li:hover {
 a {
   color: black;
   text-decoration: none;
+  /*better click surface*/
   margin: -0.2rem -3rem;
   padding: 0.2rem 3rem;
 }
@@ -137,5 +141,12 @@ padding: 1rem;
 border: 1px solid blue;
 }
 
+footer {
+  background-color: #77B07F;
+  color: black;
+  padding: 0.1rem;
+  text-align: center;
+  border-top: 1px solid black;
+}
 </style>
 
