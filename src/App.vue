@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="banner">
-      <h1>{{ msg }}</h1>
+      <h1>river1</h1>
 <!--       <div id="tabsBg"></div>
  -->      <ul>
         <router-link tag="li" to="/One"><a>All</a></router-link>
@@ -15,7 +15,11 @@
         <router-link tag="li" to="/Nine" id="lastTag"><a>UX</a></router-link>
       </ul>
     </div> <!-- end banner -->
-    <div id="newsletter">Get our newsletter <input type="email" name="email" class="newletterInput" placeholder="your email"><button type="button" id="sendEmail">OK</button><button id="close" onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'> X</button></div>
+    <div id="newsletter">Get our newsletter 
+      <input type="email" name="email" class="newletterInput" placeholder="your email">
+      <button type="button" id="sendEmail">OK</button>
+      <button id="close" onclick='this.parentNode.parentNode.removeChild(this.parentNode); return false;'> X</button>
+    </div>
     <router-view></router-view>
   </div> <!-- end app -->
 </template>
@@ -23,21 +27,21 @@
 <script>
 export default {
   name: 'app',
-  data() {
-    return {
-      msg: 'river1',
-    };
-  },
+  // data() {
+  //   return {
+  //     msg: 'river1',
+  //   };
+  // },
 };
 </script>
 
 <style>
-#app {
+#app{
   font-family: 'Iosevka', Helvetica, sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: -0.5rem;
+  margin: -0rem;
 /*  border: 1px solid red;
 */}
 
@@ -106,7 +110,6 @@ button {
 
 button:focus, input:focus {outline:0;}
 
-
 .newletterInput::-webkit-input-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
  }
 .newletterInput:-moz-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
@@ -114,6 +117,21 @@ button:focus, input:focus {outline:0;}
 .newletterInput::-moz-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
  }
 .newletterInput:-ms-input-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;
+}
+
+.top {
+  border: 1px solid beige;
+  margin: 1rem;
+}
+
+.pure-g{
+margin: 0
+}
+
+.article{
+margin: 0.5rem;
+padding: 1rem;
+border: 1px solid blue;
 }
 
 </style>
