@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style>
+/*TODO: font-face
+*/
+
 #app{
   font-family: 'Iosevka', Helvetica, sans-serif;
   font-size: 14px;
