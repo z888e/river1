@@ -92,6 +92,7 @@ li.router-link-active {
 }
 
 #newsletter{
+  background-color: white;
   text-align: right;
   border: 1px solid black;
   padding: 0.4rem 0.69rem;
@@ -121,11 +122,13 @@ button:focus, input:focus {outline:0;}
 
 .top {
   border: 1px solid beige;
-  margin: 1rem;
+  margin: 0.4rem;
 }
 
-.pure-g{
-margin: 0
+.titre{
+margin: 0.5rem;
+padding: 1rem;
+border: 1px solid green;
 }
 
 .article{

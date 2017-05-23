@@ -1,7 +1,7 @@
 <template>
   <div class="top">
-    <h1> 1</h1>
-    <p>UN</p>
+    <h1 class="titre"> 1</h1>
+    <p class="titre">UN</p>
     <div class="article">
       <h3>le titre </h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
