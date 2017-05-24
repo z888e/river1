@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header id="banner">
+    <header>
       <h1>river1</h1>
 <!--       <div id="tabsBg"></div>
  -->      <ul>
@@ -42,7 +42,7 @@ export default {
 /*TODO: font-face
 */
 
-#app{
+#app, p, input, button{
   font-family: 'Iosevka', Helvetica, sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -51,12 +51,21 @@ export default {
 /*  border: 1px solid red;
 */}
 
-#banner {
+header, footer{
   background-color: #77B07F;
   color: black;
+}
+
+header {
   padding: 0.1rem;
   text-align: center;
   border-bottom: 1px solid black;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid black;
 }
 
 #tabsBg{
@@ -108,7 +117,6 @@ li.router-link-active {
 }
 
 button {
-  font-family: 'Iosevka', Helvetica, sans-serif;
   padding: 0.3rem;
   margin: -0.15rem 0 -0.15rem  0.3rem;
   background-color: white;
@@ -138,14 +146,6 @@ border: 1px solid yellow;
 margin: 0.5rem;
 padding: 1rem;
 border: 1px solid blue;
-}
-
-footer {
-  background-color: #77B07F;
-  color: black;
-  padding: 0.1rem;
-  text-align: center;
-  border-top: 1px solid black;
 }
 </style>
 
