@@ -67,7 +67,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
+          consequat. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
         </div>
       </div>
       <div class="pure-u-3-5">
@@ -116,7 +116,7 @@
       <div class="pure-u-1-5">
         <div class="article">
           <p>2</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
         </div>
       </div>
       <!-- end 4/5 -->
