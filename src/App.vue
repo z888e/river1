@@ -52,8 +52,8 @@ export default {
 */}
 
 @media screen and (min-width: 900px){
-   component{
-    margin: 0rem 2rem;
+   #component{
+    margin: 0 3%;
   }
 }
 
