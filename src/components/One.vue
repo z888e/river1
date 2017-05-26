@@ -1,9 +1,11 @@
 <template>
+<div id="component">
   <div class="top">
     <h1 class="titre"> 1</h1>
     <p class="titre">UN</p>
     <div class="article">
       <h3>le titre </h3>
+      <img src="http://placehold.it/1500x200" alt="placeholder">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -146,9 +148,8 @@
         </div>
         <!-- end 1/2 -->
     </div>
-
-
   </div>
+</div>
 </template>
 
 <script>

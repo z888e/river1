@@ -51,6 +51,12 @@ export default {
 /*  border: 1px solid red;
 */}
 
+@media screen and (min-width: 900px){
+   component{
+    margin: 0rem 2rem;
+  }
+}
+
 header, footer{
   background-color: #77B07F;
   color: black;
