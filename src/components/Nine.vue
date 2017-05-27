@@ -178,7 +178,4 @@ export default {
 </script>
 
 <style scoped>
-.top{
-  border: 1px solid beige;
-}
 </style>
