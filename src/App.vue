@@ -142,7 +142,7 @@ button:focus, input:focus {outline:0;}
 .newletterInput::-moz-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;}
 .newletterInput:-ms-input-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;}
 
-.top {
+.top{
 /*  border: 1px solid beige;
 */  margin: 0.4rem;
 }
