@@ -2,7 +2,10 @@
 <div id="component">
  <div id="top">
    Top 
-  
+ </div>
+
+ <div id="box">
+ 	
  </div>
 </div>
 </template>
@@ -19,4 +22,7 @@ export default {
 </script>
 
 <style scoped>
+#box {
+height: 600px;
+}
 </style>
