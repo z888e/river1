@@ -56,6 +56,11 @@ export default {
     margin: 0 3%;
   }
 }
+@media screen and (min-width: 1400px){
+   #component{
+    margin: 0 11%;
+  }
+}
 
 header, footer{
   background-color: #77B07F;
@@ -152,6 +157,10 @@ border: 1px solid yellow;
 margin: 0.5rem;
 padding: 1rem;
 border: 1px solid blue;
+}
+
+.article img{
+width:100%;
 }
 </style>
 
