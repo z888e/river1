@@ -42,7 +42,7 @@ export default {
 /*TODO: font-face
 */
 
-#app, p, input, button{
+#app, p, input, button, .upButton, h3{
   font-family: 'Iosevka', Helvetica, sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -153,14 +153,25 @@ padding: 1rem;
 border: 1px solid yellow;
 }
 
-.article{
+article{
 margin: 0.5rem;
 padding: 1rem;
 border: 1px solid blue;
 }
 
-.article img{
+h3{
+margin-bottom: 0.4rem;
+}
+
+article img{
 width:100%;
 }
+
+.upButton {
+  border: 1px solid black;
+  margin-top: 0.5rem;
+}
+
+
 </style>
 
