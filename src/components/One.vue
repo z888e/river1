@@ -1,8 +1,8 @@
 <template>
 <div id="component">
   <div class="top">
-    <h1 class="titre"> 1</h1>
-    <h2 class="titre">UN</h2>
+    <h1 class="titre">Lorem ipsum</h1>
+    <h2 class="titre">Consectetur adipisicing elit, sed do eiusmod</h2>
     <article>
       <h3>le titre </h3>
       <img src="http://placehold.it/1500x400" alt="placeholder">

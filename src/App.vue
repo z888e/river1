@@ -143,20 +143,20 @@ button:focus, input:focus {outline:0;}
 .newletterInput:-ms-input-placeholder { color: rgba(0,0,0,0.5);   font-family: 'Iosevka', Helvetica, sans-serif;}
 
 .top {
-  border: 1px solid beige;
-  margin: 0.4rem;
+/*  border: 1px solid beige;
+*/  margin: 0.4rem;
 }
 
 .titre{
 margin: 0.5rem;
 padding: 1rem;
-border: 1px solid yellow;
-}
+/*border: 1px solid yellow;
+*/}
 
 article{
 margin: 0.5rem;
 padding: 1rem;
-border: 1px solid blue;
+border: 1px dotted black;
 }
 
 h3{
