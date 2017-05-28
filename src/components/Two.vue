@@ -1,7 +1,7 @@
 <template>
 <div id="component">
   <div class="top">
-    <h1 class="titre">Lorem ipsum</h1>
+    <h1 class="titre">2 Tech</h1>
     <h2 class="titre">Consectetur adipisicing elit, sed do eiusmod</h2>
     <article>
       <h3>le titre </h3>
@@ -171,11 +171,14 @@ export default {
   name: 'two',
   data() {
     return {
-      msg: '',
+      counter: 0,
     };
   },
 };
 </script>
 
 <style scoped>
+#component{
+  background-color: #;
+}
 </style>

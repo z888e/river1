@@ -1,7 +1,7 @@
 <template>
 <div id="component">
   <div class="top">
-    <h1 class="titre">Lorem ipsum</h1>
+    <h1 class="titre">4 Art</h1>
     <h2 class="titre">Consectetur adipisicing elit, sed do eiusmod</h2>
     <article>
       <h3>le titre </h3>
@@ -178,4 +178,7 @@ export default {
 </script>
 
 <style scoped>
+#component{
+  background-color: #8D9EA5;
+}
 </style>
