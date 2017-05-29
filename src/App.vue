@@ -30,11 +30,6 @@
 <script>
 export default {
   name: 'app',
-  // data() {
-  //   return {
-  //     msg: 'river1',
-  //   };
-  // },
 };
 </script>
 
