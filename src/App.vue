@@ -168,13 +168,21 @@ width:100%;
 }
 
 .etroit{
-  max-height: 200px;
+  max-height: 400px;
 }
 
 p{
-   white-space: no-wrap;
-   text-overflow: ellipsis;
+/*   white-space: nowrap;
+*/   /*text-overflow: ellipsis;
    overflow:hidden;
 }
+
+p {*/
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
 </style>
 
