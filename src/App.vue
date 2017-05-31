@@ -167,6 +167,10 @@ width:100%;
   margin-top: 0.5rem;
 }
 
+.etroit{
+  max-height: 200px;
+}
+
 p{
    white-space: no-wrap;
    text-overflow: ellipsis;
