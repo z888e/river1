@@ -177,6 +177,18 @@ p{
    overflow:hidden;
 }
 
+p {
+  overflow: hidden;
+  max-width: 75ch;
+} 
+
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75ch;
+}
+
 p {*/
   overflow: hidden;
   display: -webkit-box;
